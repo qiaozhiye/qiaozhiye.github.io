@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>common ownership on Home</title>
+    <link>https://georgeyes.github.io/categories/common-ownership/</link>
+    <description>Recent content in common ownership on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://georgeyes.github.io/categories/common-ownership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internalizing Environmental Externalities: The Role of Geographic Common Ownership</title>
+      <link>https://georgeyes.github.io/research/co-and-pollution/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/research/co-and-pollution/</guid>
+      <description>This paper proposes and tests the hypothesis that common ownership of nearby firms, which I call geographic common ownership, incentivizes firms to internalize environmental externalities. Using US EPA Toxic Release Inventory data from 1987 to 2019, I find that facilities sharing significant common institutional ownership with nearby firms tend to release fewer toxic chemicals, compared to other facilities of the same parent firm. An analysis using mergers of financial institutions as a quasi-natural experiment suggests that the effect of geographic common ownership on toxic pollution is causal.</description>
+    </item>
+    
+    <item>
+      <title>Active Mutual Fund Common Owners&#39; Returns and Proxy Voting Behavior</title>
+      <link>https://georgeyes.github.io/research/co-and-return/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/research/co-and-return/</guid>
+      <description>We find that active mutual funds owning product market competitors have superior risk-adjusted returns that are not driven by industry concentration, common selection, or stock picking ability. These funds charge higher fees but also generate persistent net-of-fee returns for investors. Funds with higher common ownership are more active voters who are more likely to vote against executive incentives compensation and for directors with existing directorships in competitors. Our findings suggest some actively-managed mutual funds have an incentive to soften product market competition and that proxy voting could serve as one mechanism for influencing corporate policy.</description>
+    </item>
+    
+  </channel>
+</rss>

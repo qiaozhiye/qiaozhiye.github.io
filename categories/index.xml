@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Home</title>
+    <link>https://georgeyes.github.io/categories/</link>
+    <description>Recent content in Categories on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://georgeyes.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>common ownership</title>
+      <link>https://georgeyes.github.io/categories/common-ownership/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/categories/common-ownership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pollution</title>
+      <link>https://georgeyes.github.io/categories/pollution/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/categories/pollution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shareholder voting</title>
+      <link>https://georgeyes.github.io/categories/shareholder-voting/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/categories/shareholder-voting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>race</title>
+      <link>https://georgeyes.github.io/categories/race/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/categories/race/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resource</title>
+      <link>https://georgeyes.github.io/categories/resource/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/categories/resource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>employee ownership</title>
+      <link>https://georgeyes.github.io/categories/employee-ownership/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/categories/employee-ownership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>financial regulation</title>
+      <link>https://georgeyes.github.io/categories/financial-regulation/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/categories/financial-regulation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

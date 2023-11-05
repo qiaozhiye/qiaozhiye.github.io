@@ -1,0 +1,14 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home</title>
+    <link>https://georgeyes.github.io/</link>
+    <description>Recent content on Home</description>
+    
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://georgeyes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

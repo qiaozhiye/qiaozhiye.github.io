@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shareholder control on Home</title>
+    <link>https://georgeyes.github.io/tags/shareholder-control/</link>
+    <description>Recent content in shareholder control on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://georgeyes.github.io/tags/shareholder-control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active Mutual Fund Common Owners&#39; Returns and Proxy Voting Behavior</title>
+      <link>https://georgeyes.github.io/research/co-and-return/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgeyes.github.io/research/co-and-return/</guid>
+      <description>We find that active mutual funds owning product market competitors have superior risk-adjusted returns that are not driven by industry concentration, common selection, or stock picking ability. These funds charge higher fees but also generate persistent net-of-fee returns for investors. Funds with higher common ownership are more active voters who are more likely to vote against executive incentives compensation and for directors with existing directorships in competitors. Our findings suggest some actively-managed mutual funds have an incentive to soften product market competition and that proxy voting could serve as one mechanism for influencing corporate policy.</description>
+    </item>
+    
+  </channel>
+</rss>
