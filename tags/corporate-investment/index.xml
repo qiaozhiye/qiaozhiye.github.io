@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>corporate investment on Home</title>
-    <link>https://georgeyes.github.io/tags/corporate-investment/</link>
+    <link>https://qiaozhiye.github.io/tags/corporate-investment/</link>
     <description>Recent content in corporate investment on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://georgeyes.github.io/tags/corporate-investment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://qiaozhiye.github.io/tags/corporate-investment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Missing the Boat: Regulatory Approval Delay and Investment Project Outcomes</title>
-      <link>https://georgeyes.github.io/research/regulatory-delay/</link>
+      <link>https://qiaozhiye.github.io/research/regulatory-delay/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://georgeyes.github.io/research/regulatory-delay/</guid>
+      <guid>https://qiaozhiye.github.io/research/regulatory-delay/</guid>
       <description>By using unique hand-collected project-level investment data on Chinese private investments in public equity (PIPE) issuances, we show that the length of the regulatory approval process for equity issuance is positively related to the probability of subsequent changes in equity-financed projects and a deterioration in project returns. The effects are more pronounced for firms in a highly competitive industry and with a comparative disadvantage. Furthermore, we show that this relationship is causal by exploiting the exogenous shock to approval delay caused by changes in the Chairman of the China Securities Regulation Commission.</description>
     </item>
     

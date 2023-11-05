@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>insider trading on Home</title>
-    <link>https://georgeyes.github.io/tags/insider-trading/</link>
+    <link>https://qiaozhiye.github.io/tags/insider-trading/</link>
     <description>Recent content in insider trading on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://georgeyes.github.io/tags/insider-trading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qiaozhiye.github.io/tags/insider-trading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Are Employees Informed? Evidence from Employee Stock Ownership in Defined Contribution Pension Plans</title>
-      <link>https://georgeyes.github.io/research/employee-ownership/</link>
+      <link>https://qiaozhiye.github.io/research/employee-ownership/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://georgeyes.github.io/research/employee-ownership/</guid>
+      <guid>https://qiaozhiye.github.io/research/employee-ownership/</guid>
       <description>This paper investigates the return predictability and information content of changes in employee ownership of own-company stock in defined contribution pension plans. Using the US Department of Labor&amp;rsquo;s Form 5500 data from 2000 to 2019, I find that a two-standard-deviation increase in the changes in employee stock ownership in a year is associated with a 2.2-to-2.5 percentage point increase in employers’ annualized abnormal returns in the subsequent year. The results are robust to both regression and portfolio sorting approaches, alternative return measures, and controlling for firm characteristics and reported insider trading activities.</description>
     </item>
     
