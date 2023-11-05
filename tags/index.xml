@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://qiaozhiye.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://qiaozhiye.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CRSP</title>
+      <link>https://qiaozhiye.github.io/tags/crsp/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiaozhiye.github.io/tags/crsp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISS</title>
+      <link>https://qiaozhiye.github.io/tags/iss/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiaozhiye.github.io/tags/iss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shareholder voting</title>
+      <link>https://qiaozhiye.github.io/tags/shareholder-voting/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiaozhiye.github.io/tags/shareholder-voting/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>common ownership</title>
       <link>https://qiaozhiye.github.io/tags/common-ownership/</link>
@@ -67,33 +94,6 @@
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://qiaozhiye.github.io/tags/racial-discrimination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>racial preference</title>
-      <link>https://qiaozhiye.github.io/tags/racial-preference/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiaozhiye.github.io/tags/racial-preference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shareholder voting</title>
-      <link>https://qiaozhiye.github.io/tags/shareholder-voting/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiaozhiye.github.io/tags/shareholder-voting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data scraping</title>
-      <link>https://qiaozhiye.github.io/tags/data-scraping/</link>
-      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://qiaozhiye.github.io/tags/data-scraping/</guid>
       <description></description>
     </item>
     

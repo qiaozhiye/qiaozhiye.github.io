@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>Match ISS Voting Analytics with CRSP Mutual Funds - Home</title>
+<meta property="og:title" content="Match ISS Voting Analytics with CRSP Mutual Funds - Home">
+<meta property="og:type" content="article">
+
+
+<meta property="og:image" content="img/main.jpg">
+
+<meta property="og:url" content="https://qiaozhiye.github.io/resource/matching-iss-voting-with-crsp/"><meta property="og:description" content="Qiaozhi Ye&#39;s Homepage.">
+<meta name="Description" property="description" content="Qiaozhi Ye&#39;s Homepage.">
+
+
+<meta property="keywords" content ="iss, crsp, shareholder voting">
+
+
+
+<link rel="stylesheet" href="https://qiaozhiye.github.io/css/style.min.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link href="https://qiaozhiye.github.ioindex.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
+<meta name="theme-color" content="#ffffff">
+
+
+<script>function updateMode(){localStorage.theme==="dark"||!("theme"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function toggleMode(){localStorage.theme==="dark"?localStorage.theme="light":localStorage.theme="dark",updateMode()}window.onload=updateMode();function toggleMenu(){let e=document.getElementById("navbar-default");e.classList.contains("hidden")?e.classList.remove("hidden"):e.classList.add("hidden")}</script>
+
+  </head>
+  <body>
+    <header class="md:px-0 px-2">
+        <nav >
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <div class="nav-main my-2.5">
+      <a href="https://qiaozhiye.github.io" class="nav-title py-2.5 text-2xl
+               text-zinc-600 dark:text-zinc-300 hover:border-b-0">Home</a>
+    </div>
+    <button type="button"
+            onclick="toggleMenu()"
+            class="inline-flex items-center p-2 ml-3
+                  text-sm text-gray-500
+                  rounded-lg md:hidden hover:bg-gray-100
+                  focus:outline-none focus:ring-2
+                  focus:ring-gray-200 dark:text-gray-400
+                  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor"
+             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1
+                           0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1z" clip-rule="evenodd"></path>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="grid md:grid-flow-col items-center justify-between text-lg
+                 my-2.5 grid-cols-1 pl-0 text-center">
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/research/">Research</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/cv/">CV</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/resource/">Resources</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/categories/">Categories</a>
+        </li>
+        
+        <li class="h-7 pl-2.5 pr-0 list-none">
+          <button type="button" onclick="toggleMode()" class="h-full"  aria-label="Toggle between dark and light mode">
+            <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 hidden dark:inline"
+                 id="ligh-mode-button-img"
+                 alt="A sun icon for switching to light mode"
+                 src="https://qiaozhiye.github.io/img/light_mode.svg">
+            <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 inline dark:hidden"
+                 id="dark-mode-button-img"
+                 alt="A moon icon for switching to dark mode"
+                 src="https://qiaozhiye.github.io/img/dark_mode.svg">
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    </header>
+    <main class="content h-card container mt-2 m-auto
+                 leading-loose md:px-0 px-2 z-0"
+          role="main">
+    
+<article class="article h-entry" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="title-container">
+        <h1 class="article-title p-name" itemprop="name">Match ISS Voting Analytics with CRSP Mutual Funds</h1>
+        <div class="flex justify-between items-center">
+        
+               
+    <div class="text-right">
+        
+        
+            <a class="p-author h-card" rel="author" href="https://www.yegeorge.com" itemprop="url" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">Qiaozhi Ye</span>
+            </a>
+            
+        
+    </div>
+
+            </div>
+        
+        
+        <a><i itemprop="headline" class="text-gray-600 dark:text-gray-400 text-right border-none p-author h-card">
+            Here is a summary of the procedure, built on Peter Iliev&#39;s note, for matching mutual funds between ISS Voting Analytics and CRSP databases.
+        </i></a>
+        
+        </div>
+        
+    </div>
+
+    <div class="article-content e-content" itemprop="articleBody">
+        <p>In Appendix B of <a href="https://qiaozhiye.github.io/research/race-and-voting/">Sulaeman and Ye (2023)</a>, we perform the following procedure to link ISS mutual funds (FundID) with CRSP mutual funds (CRSP_PORTNO).</p>
+<p>As described in <a href="https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/b/169215/files/2023/08/voting-link-note-v2.pdf">Peter Iliev&rsquo;s note</a>, each proxy voting record in the ISS data can be linked to the original SEC Form N-PX using the reference identifier (NPXFileID). From the SEC&rsquo;s N-PX file, we obtain a list of fund class tickers (TICKER) associated with the registered management investment company on the filing date. Because the CRSP Mutual Fund Summary data provide a direct linkage between the fund class tickers (TICKER) and the fund portfolio identifiers (CRSP_PORTNO), we are able to map FundID from ISS to CRSP_PORTNO from CRSP by TICKER in each quarter.</p>
+<p>We observe that, in most cases (88% in our exercise), a FundID in a quarter is matched with multiple CRSP_PORTNOs, because a N-PX file typically refers to multiple funds under the same investment management company. For each FundID, we identify the most probable CRSP_PORTNO via matching the fund name between the two databases, using both Jaro-Winkler and Levenshtein Distance name-matching <a href="https://cran.r-project.org/web/packages/stringdist/index.html">algorithms</a>. We retain the pairs of FundID-CRSP_PORTNO with the minimum name distance according to the two algorithms and further require the distance to be less than 0.3 for Jaro-Winkler and 10 for Levenshtein Distance. In about 72% of the FundID-CRSP_PORTNO pairs, Jaro-Winkler or Levenshtein Distance reports a perfect match between the ISS and the CRSP fund names. For the remaining 28% of the cases where fund names are not exactly matched, we manually verify the accuracy of the mappings. As our name-matching methodology tightens the links between FundID and CRSP_PORTNO within an investment management company in a quarter, it performs better than a general, unconditional matching using a universe of fund names from the two databases.</p>
+<p>Suggested citation:
+Sulaeman, Johan and Ye, Qiaozhi, Who Do You Vote For? Same-Race Voting Preferences in Director Elections (January 1, 2023). European Corporate Governance Institute – Finance Working Paper No. 872/2023</p>
+
+    </div>
+    
+<ul class="list-none pl-0 font-sm align-left">
+
+<hr>
+<li class="list-none">
+    Categories:
+    
+    <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
+       href="/categories/resource">
+    <span class="tag-item dark:bg-zinc-900 dark:hover:bg-zinc-700
+                 hover:bg-zinc-200 bg-zinc-100
+                 dark:border-zinc-600 py-0.5
+                 px-1 rounded-t border-b-2 border-zinc-300
+                 hover:border-zinc-500">
+    resource
+    </span>
+</a>
+</li >
+
+
+<li class="list-none">
+    Tags:
+    
+    <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
+       href="/tags/iss">
+        <span class="flex flex-row justify-start items-center
+                     dark:bg-zinc-900 dark:hover:bg-zinc-700
+                     hover:bg-zinc-300 bg-zinc-200
+                     dark:border-zinc-600 py-0.5
+                     px-1 rounded-t border-b-2 border-zinc-300
+                     hover:border-zinc-500">
+            
+            <img class="h-4 mr-2 inline" src="https://qiaozhiye.github.io/images/tag_logo.svg"
+                 alt="Logo of a tag: indicates that a tag item follows.">
+            ISS
+        </span>
+    </a>
+    
+    <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
+       href="/tags/crsp">
+        <span class="flex flex-row justify-start items-center
+                     dark:bg-zinc-900 dark:hover:bg-zinc-700
+                     hover:bg-zinc-300 bg-zinc-200
+                     dark:border-zinc-600 py-0.5
+                     px-1 rounded-t border-b-2 border-zinc-300
+                     hover:border-zinc-500">
+            
+            <img class="h-4 mr-2 inline" src="https://qiaozhiye.github.io/images/tag_logo.svg"
+                 alt="Logo of a tag: indicates that a tag item follows.">
+            CRSP
+        </span>
+    </a>
+    
+    <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
+       href="/tags/shareholder-voting">
+        <span class="flex flex-row justify-start items-center
+                     dark:bg-zinc-900 dark:hover:bg-zinc-700
+                     hover:bg-zinc-300 bg-zinc-200
+                     dark:border-zinc-600 py-0.5
+                     px-1 rounded-t border-b-2 border-zinc-300
+                     hover:border-zinc-500">
+            
+            <img class="h-4 mr-2 inline" src="https://qiaozhiye.github.io/images/tag_logo.svg"
+                 alt="Logo of a tag: indicates that a tag item follows.">
+            shareholder voting
+        </span>
+    </a>
+    
+</li>
+
+</ul>
+
+
+    
+
+    
+</article>
+
+    </main>
+  </body>
+</html>

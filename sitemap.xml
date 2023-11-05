@@ -4,16 +4,51 @@
     
     <url>
         <loc>https://qiaozhiye.github.io/</loc>
-        <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://qiaozhiye.github.io/research/</loc>
-        <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+        <loc>https://qiaozhiye.github.io/resource/</loc>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
     </url>
     
     <url>
         <loc>https://qiaozhiye.github.io/categories/</loc>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://qiaozhiye.github.io/tags/crsp/</loc>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://qiaozhiye.github.io/tags/iss/</loc>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://qiaozhiye.github.io/resource/matching-iss-voting-with-crsp/</loc>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://qiaozhiye.github.io/categories/resource/</loc>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://qiaozhiye.github.io/tags/shareholder-voting/</loc>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://qiaozhiye.github.io/tags/</loc>
+        <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://qiaozhiye.github.io/research/</loc>
         <lastmod>2023-11-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -53,11 +88,6 @@
     </url>
     
     <url>
-        <loc>https://qiaozhiye.github.io/tags/</loc>
-        <lastmod>2023-11-04T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>https://qiaozhiye.github.io/tags/toxic-pollution/</loc>
         <lastmod>2023-11-04T00:00:00+00:00</lastmod>
     </url>
@@ -88,18 +118,8 @@
     </url>
     
     <url>
-        <loc>https://qiaozhiye.github.io/tags/shareholder-voting/</loc>
-        <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>https://qiaozhiye.github.io/research/race-and-voting/</loc>
         <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://qiaozhiye.github.io/resource/</loc>
-        <lastmod>2022-07-30T00:00:00+00:00</lastmod>
     </url>
     
     <url>
@@ -119,11 +139,6 @@
     
     <url>
         <loc>https://qiaozhiye.github.io/tags/public-float/</loc>
-        <lastmod>2022-07-30T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://qiaozhiye.github.io/categories/resource/</loc>
         <lastmod>2022-07-30T00:00:00+00:00</lastmod>
     </url>
     
