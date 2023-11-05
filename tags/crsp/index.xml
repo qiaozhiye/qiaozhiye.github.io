@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CRSP on Home</title>
+    <link>https://qiaozhiye.github.io/tags/crsp/</link>
+    <description>Recent content in CRSP on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://qiaozhiye.github.io/tags/crsp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Match ISS Voting Analytics with CRSP Mutual Funds</title>
+      <link>https://qiaozhiye.github.io/resource/matching-iss-voting-with-crsp/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiaozhiye.github.io/resource/matching-iss-voting-with-crsp/</guid>
+      <description>In Appendix B of Sulaeman and Ye (2023), we perform the following procedure to link ISS mutual funds (FundID) with CRSP mutual funds (CRSP_PORTNO).
+As described in Peter Iliev&amp;rsquo;s note, each proxy voting record in the ISS data can be linked to the original SEC Form N-PX using the reference identifier (NPXFileID). From the SEC&amp;rsquo;s N-PX file, we obtain a list of fund class tickers (TICKER) associated with the registered management investment company on the filing date.</description>
+    </item>
+    
+  </channel>
+</rss>
