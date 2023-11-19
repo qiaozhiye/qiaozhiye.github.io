@@ -18,7 +18,7 @@
 
 <meta property="og:image" content="img/main.jpg">
 
-<meta property="og:url" content="https://qiaozhiye.github.io/resource/matching-iss-voting-with-crsp/"><meta property="og:description" content="Qiaozhi Ye&#39;s Homepage.">
+<meta property="og:url" content="https://yegeorge.com/resource/matching-iss-voting-with-crsp/"><meta property="og:description" content="Qiaozhi Ye&#39;s Homepage.">
 <meta name="Description" property="description" content="Qiaozhi Ye&#39;s Homepage.">
 
 
@@ -26,14 +26,14 @@
 
 
 
-<link rel="stylesheet" href="https://qiaozhiye.github.io/css/style.min.css">
+<link rel="stylesheet" href="https://yegeorge.com/css/style.min.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
 
 
 <link rel="manifest" href="/site.webmanifest">
-<link href="https://qiaozhiye.github.ioindex.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
+<link href="https://yegeorge.comindex.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
 <meta name="theme-color" content="#ffffff">
 
 
@@ -45,7 +45,7 @@
         <nav >
   <div class="container flex flex-wrap justify-between items-center mx-auto">
     <div class="nav-main my-2.5">
-      <a href="https://qiaozhiye.github.io" class="nav-title py-2.5 text-2xl
+      <a href="https://yegeorge.com" class="nav-title py-2.5 text-2xl
                text-zinc-600 dark:text-zinc-300 hover:border-b-0">Qiaozhi Ye</a>
     </div>
     <button type="button"
@@ -96,11 +96,11 @@
             <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 hidden dark:inline"
                  id="ligh-mode-button-img"
                  alt="A sun icon for switching to light mode"
-                 src="https://qiaozhiye.github.io/img/light_mode.svg">
+                 src="https://yegeorge.com/img/light_mode.svg">
             <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 inline dark:hidden"
                  id="dark-mode-button-img"
                  alt="A moon icon for switching to dark mode"
-                 src="https://qiaozhiye.github.io/img/dark_mode.svg">
+                 src="https://yegeorge.com/img/dark_mode.svg">
           </button>
         </li>
       </ul>
@@ -142,7 +142,7 @@
     </div>
 
     <div class="article-content e-content" itemprop="articleBody">
-        <p>In Appendix B of <a href="https://qiaozhiye.github.io/research/race-and-voting/">Sulaeman and Ye (2023)</a>, we perform the following procedure to link ISS mutual funds (FundID) with CRSP mutual funds (CRSP_PORTNO).</p>
+        <p>In Appendix B of <a href="https://yegeorge.com/research/race-and-voting/">Sulaeman and Ye (2023)</a>, we perform the following procedure to link ISS mutual funds (FundID) with CRSP mutual funds (CRSP_PORTNO).</p>
 <p>As described in <a href="https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/b/169215/files/2023/08/voting-link-note-v2.pdf">Peter Iliev&rsquo;s note</a>, each proxy voting record in the ISS data can be linked to the original SEC Form N-PX using the reference identifier (NPXFileID). From the SEC&rsquo;s N-PX file, we obtain a list of fund class tickers (TICKER) associated with the registered management investment company on the filing date. Because the CRSP Mutual Fund Summary data provide a direct linkage between the fund class tickers (TICKER) and the fund portfolio identifiers (CRSP_PORTNO), we are able to map FundID from ISS to CRSP_PORTNO from CRSP by TICKER in each quarter.</p>
 <p>We observe that, in most cases (88% in our exercise), a FundID in a quarter is matched with multiple CRSP_PORTNOs, because a N-PX file typically refers to multiple funds under the same investment management company. For each FundID, we identify the most probable CRSP_PORTNO via matching the fund name between the two databases, using both Jaro-Winkler and Levenshtein Distance name-matching <a href="https://cran.r-project.org/web/packages/stringdist/index.html">algorithms</a>. We retain the pairs of FundID-CRSP_PORTNO with the minimum name distance according to the two algorithms and further require the distance to be less than 0.3 for Jaro-Winkler and 10 for Levenshtein Distance. In about 72% of the FundID-CRSP_PORTNO pairs, Jaro-Winkler or Levenshtein Distance reports a perfect match between the ISS and the CRSP fund names. For the remaining 28% of the cases where fund names are not exactly matched, we manually verify the accuracy of the mappings. As our name-matching methodology tightens the links between FundID and CRSP_PORTNO within an investment management company in a quarter, it performs better than a general, unconditional matching using a universe of fund names from the two databases.</p>
 <p>Suggested citation:
@@ -181,7 +181,7 @@ Sulaeman, Johan and Ye, Qiaozhi, Who Do You Vote For? Same-Race Voting Preferenc
                      px-1 rounded-t border-b-2 border-zinc-300
                      hover:border-zinc-500">
             
-            <img class="h-4 mr-2 inline" src="https://qiaozhiye.github.io/images/tag_logo.svg"
+            <img class="h-4 mr-2 inline" src="https://yegeorge.com/images/tag_logo.svg"
                  alt="Logo of a tag: indicates that a tag item follows.">
             ISS
         </span>
@@ -196,7 +196,7 @@ Sulaeman, Johan and Ye, Qiaozhi, Who Do You Vote For? Same-Race Voting Preferenc
                      px-1 rounded-t border-b-2 border-zinc-300
                      hover:border-zinc-500">
             
-            <img class="h-4 mr-2 inline" src="https://qiaozhiye.github.io/images/tag_logo.svg"
+            <img class="h-4 mr-2 inline" src="https://yegeorge.com/images/tag_logo.svg"
                  alt="Logo of a tag: indicates that a tag item follows.">
             CRSP
         </span>
@@ -211,7 +211,7 @@ Sulaeman, Johan and Ye, Qiaozhi, Who Do You Vote For? Same-Race Voting Preferenc
                      px-1 rounded-t border-b-2 border-zinc-300
                      hover:border-zinc-500">
             
-            <img class="h-4 mr-2 inline" src="https://qiaozhiye.github.io/images/tag_logo.svg"
+            <img class="h-4 mr-2 inline" src="https://yegeorge.com/images/tag_logo.svg"
                  alt="Logo of a tag: indicates that a tag item follows.">
             shareholder voting
         </span>

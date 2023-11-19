@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>race on Qiaozhi Ye</title>
-    <link>https://qiaozhiye.github.io/categories/race/</link>
+    <link>https://yegeorge.com/categories/race/</link>
     <description>Recent content in race on Qiaozhi Ye</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://qiaozhiye.github.io/categories/race/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yegeorge.com/categories/race/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who Do You Vote For? Same-Race Voting Preferences in Director Elections</title>
-      <link>https://qiaozhiye.github.io/research/race-and-voting/</link>
+      <link>https://yegeorge.com/research/race-and-voting/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://qiaozhiye.github.io/research/race-and-voting/</guid>
+      <guid>https://yegeorge.com/research/race-and-voting/</guid>
       <description>This paper examines racial preferences of shareholders in the context of corporate director elections. We document a higher propensity of mutual fund managers to vote for director nominees who match their racial or ethnic identity. This same-race preferential voting pattern is more prevalent in elections involving nominees receiving negative recommendations from the dominant proxy advisor ISS. We investigate various potential channels &amp;ndash;statistical discrimination, value maximization, conflicts of interest, social networks, and taste-based biases&amp;ndash; using high-dimensional fixed effect models along with heterogeneity tests.</description>
     </item>
     
