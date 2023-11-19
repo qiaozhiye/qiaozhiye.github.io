@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qiaozhi Ye</title>
-    <link>https://qiaozhiye.github.io/resource/</link>
+    <link>https://yegeorge.com/resource/</link>
     <description>Recent content on Qiaozhi Ye</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://qiaozhiye.github.io/resource/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yegeorge.com/resource/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Match ISS Voting Analytics with CRSP Mutual Funds</title>
-      <link>https://qiaozhiye.github.io/resource/matching-iss-voting-with-crsp/</link>
+      <link>https://yegeorge.com/resource/matching-iss-voting-with-crsp/</link>
       <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://qiaozhiye.github.io/resource/matching-iss-voting-with-crsp/</guid>
+      <guid>https://yegeorge.com/resource/matching-iss-voting-with-crsp/</guid>
       <description>In Appendix B of Sulaeman and Ye (2023), we perform the following procedure to link ISS mutual funds (FundID) with CRSP mutual funds (CRSP_PORTNO).
 As described in Peter Iliev&amp;rsquo;s note, each proxy voting record in the ISS data can be linked to the original SEC Form N-PX using the reference identifier (NPXFileID). From the SEC&amp;rsquo;s N-PX file, we obtain a list of fund class tickers (TICKER) associated with the registered management investment company on the filing date.</description>
     </item>
     
     <item>
       <title>Extract Filer Status and Public Float from 10-K</title>
-      <link>https://qiaozhiye.github.io/resource/10-k-public-float/</link>
+      <link>https://yegeorge.com/resource/10-k-public-float/</link>
       <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://qiaozhiye.github.io/resource/10-k-public-float/</guid>
+      <guid>https://yegeorge.com/resource/10-k-public-float/</guid>
       <description>##### Load Package #####  library(edgar) library(stringr) library(lubridate) library(edgarWebR) library(dplyr) library(tidyr) library(textshape) library(readr)  ##### Download 10-K from EDGAR #####  ## set directory setwd(&amp;#34;/Users/yeqiaozhi/Dropbox/project/data/&amp;#34;) #enter your own directory here  get_10_k &amp;lt;- getFilingsHTML(cik.no = &amp;#34;ALL&amp;#34;, #enter companys&amp;#39; cik or use &amp;#34;ALL&amp;#34;  form.type = &amp;#34;10-K&amp;#34;,  filing.year = 2022, #enter filing year, e.g., 2022  quarter = c(1, 2, 3, 4),  useragent = &amp;#34;xxx@xxx.com&amp;#34; #enter your email address  )  ##### Extract filter status and public float #####  ## create an empty dataset to save results parse_df &amp;lt;- data.</description>
     </item>
     
