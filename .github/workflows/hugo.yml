@@ -22,16 +22,23 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+          fetch-depth: 0
           
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.98.0'
+          hugo-version: '0.120.3'
           extended: true
           
       - name: Build
         run: hugo --minify
-          
+        
+      - name: List public directory
+        run: ls -la public/
+        
+      - name: Check research directory
+        run: ls -la public/research/ || echo "research directory not found"
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
