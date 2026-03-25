@@ -1,0 +1,51 @@
+{{ define "main" }}
+<article class="article h-entry" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="title-container">
+        <h1 class="article-title p-name" itemprop="name">{{ .Title }}</h1>
+        <div class="flex justify-between items-center">
+        {{ if not .Params.HideAuthor }}
+               {{ if .Params.Authors }}
+    <div class="text-right">
+        {{ $length := len .Params.Authors }}
+        {{ range $index, $author := .Params.Authors }}
+            <a class="p-author h-card" rel="author" href="{{ index $.Params.AuthorURLs $index }}" itemprop="url" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">{{ $author }}</span>
+            </a>
+            {{ if lt (add $index 1) $length }}, {{ end }}
+        {{ end }}
+    </div>
+{{ end }}
+            {{ end }}</div>
+        {{ if .Params.TextContent }}
+        <a><i class="list-item-date col-start-4 text-right text-neutral-600 dark:text-neutral-400" itemprop="text">{{ .Params.TextContent | markdownify }}</i></a>
+        {{ end }}
+        </div>
+        {{ if .Params.Headline }}
+        <a><i itemprop="headline" class="text-gray-600 dark:text-gray-400 text-right border-none p-author h-card">
+            {{ .Params.Headline }}
+        </i></a>
+        {{ end }}
+        </div>
+        {{ if .Params.Readingtime }}
+        <div>
+            Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="article-content e-content" itemprop="articleBody">
+        {{ .Content }}
+    </div>
+    {{ partial "taxonomy.html" . }}
+    {{ partial "references.html" . }}
+    <!-- {{ if .Params.Lastmod }}
+    <div class="text-neutral-500 mb-4">
+        Last modified <span itemprop="dateModified"
+                            datetime="{{ .Lastmod.Format  "2006-01-02T15:04:05Z0700" }}"
+                            content="{{ .Lastmod.Format  "2006-01-02T15:04:05Z0700" }}">
+        {{ .Lastmod.Format "2006.01.02" }}
+        </span>
+    </div>
+    {{ end }}-->
+</article>
+{{ end }}

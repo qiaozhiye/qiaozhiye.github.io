@@ -1,0 +1,58 @@
+<div class="mb-12">
+    <a href="{{ .Permalink }}" itemprop="url"
+       class="grid grid-cols-list-item items-center border-b-2
+             text-black dark:text-zinc-300 hover:text-neutral-500
+             dark:border-zinc-600
+             hover:dark:border-zinc-300
+             hover:dark:text-zinc-100">
+        {{ if .Params.Caption }}
+            <img itemprop="image" alt="{{ .Params.Caption.Alt }}"
+                 src="{{ .Params.Caption.Name }}"
+                 class="flex-initial max-w-[90%] max-h-20 w-auto">
+            <h4 itemprop="name" class="border-none pb-0 my-6" style="width: 130%;">{{ .Title }}</h4>
+        {{ else if .Params.Imgsources }}
+            {{ with .Params.Imgsources }}
+            <picture>
+                {{ if .dark }}
+                <source srcset="{{ .dark }}"
+                        alt="{{ .Alt }}"
+                        media="(prefers-color-scheme: dark)">
+                {{ end }}
+                {{ if .light }}
+                <img src="{{ .light }}" alt="{{ .Alt }}" class="flex-initial max-w-[90%] max-h-20 w-auto"/>
+                {{ end }}
+            </picture>
+            <h4 itemprop="name" class="border-none pb-0 my-6" style="width: 130%;">{{ .Title }}</h4>
+            {{ end }}
+        {{ else if .Params.Imgname }}
+            <img itemprop="image" alt="{{ .Params.Imgname.Alt }}"
+                src="{{ .Params.Imgname.Name }}"
+                class="flex-initial max-w-[90%] max-h-20 w-auto"/>
+            <h4 itemprop="name" class="border-none pb-0 my-6" style="width: 130%;">{{ .Title }}</h4>
+        {{ else }}
+            <h4 itemprop="name" class="border-none pb-0 my-6 col-span-2" style="width: 130%;">{{ .Title }}</h4>
+        {{ end }}
+    </a>
+    {{ if .Params.Authors }}
+    <div class="text-left">
+        {{ $length := len .Params.Authors }}
+        {{ range $index, $author := .Params.Authors }}
+    <a class="text-right border-none p-author h-card" rel="author" href="{{ index $.Params.AuthorURLs $index }}" itemprop="url" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ $author }}</span></a>
+        {{ if lt (add $index 1) $length }}, {{ end }}
+        {{ end }}
+    </div>
+    {{ end }}
+    {{ if .Params.TextContent }}
+    <div class="list-item-date col-start-4 text-left text-neutral-600 dark:text-neutral-400" itemprop="text">
+    {{ .Params.TextContent | markdownify }}
+    </div>
+    {{ end }}
+    {{ if .Params.Headline }}
+    <div class="mt-1">
+        <i itemprop="headline"
+           class="article-headline p-summary text-base text-neutral-600 dark:text-neutral-400">
+            {{ .Params.Headline }}
+        </i>
+    </div>
+    {{ end }}
+</div>

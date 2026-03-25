@@ -1,0 +1,34 @@
+baseurl: https://yegeorge.com
+languageCode: en-us
+title: Qiaozhi Ye
+theme: hugo-astatine-theme
+preserveTaxonomyNames: yes
+rssLimit: 10
+paginate: 10
+pygmentsCodefences: yes
+pygmentsStyle: native
+taxonomies:
+  category: categories
+  tag: tags
+permalinks:
+  page: /:slug/
+  post: /:slug/
+menu:
+  main:
+    - name: Research
+      url: /research/
+      weight: -120
+    - name: Resources
+      url: /resource/
+      weight: -110
+
+    
+params:
+  authorName: Qiaozhi Ye
+  description: Qiaozhi Ye's Homepage.
+  imgname:
+    alt: Profile picture
+    blogrss: yes
+    name: img/main.jpg
+sitemap:
+  filename: sitemap.xml
