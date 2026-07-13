@@ -18,7 +18,7 @@ tags:
 - director election
 title: Who Do You Vote For? Same-Race Voting Preferences in Director Elections 
 headline: 2024 American Finance Association Conference*, 2023 Financial Management Association Conference, 2023 European Finance Association Conference, UIUC doctoral student seminar, 2023 Eastern Finance Association Conference, 2022 Australasian Finance and Banking Conference, 2022 Miami Behavioral Finance Conference*, SMU brown bag meeting*, UQ brown bag meeting, and NUS brown bag meeting
-TextContent: Revise & Resubmit at **_Review of Finance_**
+TextContent: Under Minor Revision at **_Review of Finance_**
 
 ---
 
