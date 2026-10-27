@@ -1,4 +1,5 @@
 ---
+status: published
 categories: ["financial regulation"]
 authors:
   - "Qiaozhi Ye"

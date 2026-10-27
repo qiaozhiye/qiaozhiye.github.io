@@ -1,0 +1,17 @@
+{{ define "main" }}
+    {{ .Content }}
+    {{ $published := where .Pages "Params.status" "published" }}
+    {{ $working := where .Pages "Params.status" "!=" "published" }}
+    {{ with $published }}
+    <h2 class="mb-8">Published and Accepted Papers</h2>
+    {{ range .ByDate.Reverse }}
+        {{ partial "list-item.html" . }}
+    {{ end }}
+    {{ end }}
+    {{ with $working }}
+    <h2 class="mb-8">Working Papers</h2>
+    {{ range .ByDate.Reverse }}
+        {{ partial "list-item.html" . }}
+    {{ end }}
+    {{ end }}
+{{ end }}

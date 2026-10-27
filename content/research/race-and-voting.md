@@ -1,4 +1,5 @@
 ---
+status: published
 categories:
 - shareholder voting
 - race

@@ -1,4 +1,5 @@
 ---
+status: published
 categories:
 - common ownership
 - shareholder voting
