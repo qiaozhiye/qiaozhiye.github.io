@@ -8,7 +8,7 @@ authors:
 authorURLs:
   - "https://www.yegeorge.com"
   - "https://business.uq.edu.au/profile/407/ronghong-huang"
-  - "https://business.uq.edu.au/profile/248/kelvin-tan"
+  - "https://about.uq.edu.au/experts/1594"
 date: "2019-01-01"
 slug: regulatory-delay
 tags:
